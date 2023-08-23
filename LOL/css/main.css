@@ -10,6 +10,38 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+body {
+  background-image: url("https://www.roc21.com/blog/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-6.jpg");
+  background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+  background-repeat: repeat; /* Evitar repetición de la imagen */
+  background-position: center; /* Centrar la imagen en el fondo */
+  font-family: Arial, sans-serif; /* Ejemplo de estilo de fuente */
+  color: white; /* Ejemplo de color de texto */
+}
+
+h1 {
+  color: #F1C40F;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto en tonos de café */
+  text-align : center;
+}
+
+p {
+  color: #8b7355; /* Texto en tono de café */
+  font-size: 1.2rem;
+}
+
+label {
+  color: white;
+  text-transform: uppercase;
+}
+
+input[type="text"] {
+  font-family: serif; /* Aplicar fuente serif a las letras ingresadas */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
 
 html {
   color: #222;
